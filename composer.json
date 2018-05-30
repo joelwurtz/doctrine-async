@@ -1,0 +1,30 @@
+{
+    "name": "joelwurtz/doctrine-async",
+    "description": "Async ORM Poc",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "^2.6",
+        "amphp/mysql": "^0.3.1",
+        "amphp/green-thread": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/amphp/green-thread"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Joel Wurtz",
+            "email": "jwurtz@jolicode.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
