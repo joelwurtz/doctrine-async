@@ -29,5 +29,5 @@ php doctrine-cli.php orm:schema-tool:create
 ### Testing script
 
 ```
-php test.php
+php async.php
 ```
